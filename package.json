@@ -8,6 +8,7 @@
     "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "styled-components": "^6.0.0-rc.1",
     "typescript": "^4.9.5"
   },
   "scripts": {
@@ -26,6 +27,7 @@
     "@storybook/react-vite": "^7.0.12",
     "@storybook/react-webpack5": "^7.0.12",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/styled-components": "^5.1.26",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint-plugin-storybook": "^0.6.12",
     "storybook": "^7.0.12",
