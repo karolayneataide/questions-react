@@ -1,5 +1,5 @@
 import React from "react";
 
-export function Button() {
-  return <button onClick={() => alert("Hello!")}>Botão</button>;
+export function Button({ children }) {
+  return <button onClick={() => alert("Hello!")}>{children}</button>;
 }

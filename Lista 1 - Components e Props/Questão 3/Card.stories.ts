@@ -12,7 +12,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Card: Story = {
   args: {
-    item: "English file",
+    title: "English file",
     children: "Intermediate",
   },
 };

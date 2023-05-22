@@ -12,7 +12,7 @@ type Story = StoryObj<typeof meta>;
 
 export const List: Story = {
   args: {
-    children: "Intermediate",
-    props: ["array", "bite", "car"],
+    title: "Intermediate",
+    items: ["array", "bite", "car"],
   },
 };

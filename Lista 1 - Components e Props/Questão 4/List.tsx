@@ -2,17 +2,17 @@ import React from "react";
 import * as S from "./List.styles";
 
 interface ListProps {
-  children: React.ReactNode;
-  props: string[];
+  title: React.ReactNode;
+  items: string[];
 }
 
-export function List({ children, props }: ListProps) {
+export function List({ title, items }: ListProps) {
   return (
     <div>
-      <S.Title>{children}</S.Title>
+      <S.Title>{title}</S.Title>
       <S.List>
-        {props.map((prop) => (
-          <p key={prop}>{prop}</p>
+        {items.map((item) => (
+          <p key={item}>{item}</p>
         ))}
       </S.List>
     </div>
