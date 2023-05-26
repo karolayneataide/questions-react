@@ -1,10 +1,5 @@
-import React from "react";
+import { ListProps } from "./List.props";
 import * as S from "./List.styles";
-
-interface ListProps {
-  title: React.ReactNode;
-  items: string[];
-}
 
 export function List({ title, items }: ListProps) {
   return (

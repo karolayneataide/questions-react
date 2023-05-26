@@ -1,7 +1,7 @@
-import React from "react";
+import { CardProps } from "./Card.props";
 import * as S from "./Card.styles";
 
-export function Card({ title, children }) {
+export function Card({ title, children }: CardProps) {
   return (
     <S.Card>
       <S.Title>{title}</S.Title>

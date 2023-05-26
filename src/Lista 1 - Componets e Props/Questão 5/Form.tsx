@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import * as S from "./Form.styles";
 
 export function Form() {
@@ -8,15 +8,15 @@ export function Form() {
     message: "",
   });
 
-  function handleChangeName(event) {
+  function handleChangeName(event: ChangeEvent<HTMLInputElement>) {
     setValues({ ...values, name: event.target.value });
   }
 
-  function handleChangeEmail(event) {
+  function handleChangeEmail(event: ChangeEvent<HTMLInputElement>) {
     setValues({ ...values, email: event.target.value });
   }
 
-  function handleChangeMessage(event) {
+  function handleChangeMessage(event: ChangeEvent<HTMLInputElement>) {
     setValues({ ...values, message: event.target.value });
   }
 
