@@ -1,6 +1,6 @@
 export type CardItems = {
   id: string;
-  // image: string;
+  image: string;
   label: string;
   price: number;
 };

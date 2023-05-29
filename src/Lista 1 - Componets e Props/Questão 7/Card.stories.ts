@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
+import cakeImg from "./cake.jpg";
+
 import { Card as CardComponent } from "./Card";
 
 const meta: Meta<typeof CardComponent> = {
@@ -16,6 +18,7 @@ export const Card: Story = {
       {
         id: "5fdf65",
         label: "Banana",
+        image: cakeImg,
         price: 59.99,
       },
     ],
