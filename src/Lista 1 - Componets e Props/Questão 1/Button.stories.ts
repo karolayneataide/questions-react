@@ -12,6 +12,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Button: Story = {
   args: {
-    label: "Botão",
+    children: "Botão",
   },
 };

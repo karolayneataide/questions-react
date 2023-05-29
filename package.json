@@ -2,20 +2,17 @@
   "name": "exercicios-react",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "build": "storybook build",
+    "build-storybook": "storybook build",
+    "dev": "storybook dev -p 6006",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "storybook": "storybook dev -p 6006"
+  },
   "dependencies": {
-    "@types/node": "^16.18.31",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "styled-components": "^6.0.0-rc.1",
-    "typescript": "^4.9.5"
-  },
-  "scripts": {
-    "dev": "storybook dev -p 6006",
-    "build": "storybook build",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "styled-components": "^6.0.0-rc.1"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.12",
@@ -27,12 +24,18 @@
     "@storybook/react-vite": "^7.0.12",
     "@storybook/react-webpack5": "^7.0.12",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
     "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^4.0.0",
     "babel-plugin-named-exports-order": "^0.0.2",
     "eslint": "^8.41.0",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-storybook": "^0.6.12",
     "prettier": "^2.8.8",
     "storybook": "^7.0.12",
+    "typescript": "^5.0.4",
     "vite": "^4.3.9",
     "webpack": "^5.83.1"
   }
