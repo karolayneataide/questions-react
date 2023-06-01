@@ -14,7 +14,7 @@ export const ToDoList: Story = {
   args: {
     tasks: [
       { id: "1", title: "Lembrar de terminar a lista 1", status: true },
-      { id: "1", title: "Lembrar de fazer caminhada", status: false },
+      { id: "2", title: "Lembrar de fazer caminhada", status: false },
     ],
   },
 };
