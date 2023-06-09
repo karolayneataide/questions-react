@@ -22,6 +22,7 @@ export function Authorization() {
     <S.Card>
       <div>
         <S.Card>
+          <S.Typography>Digite seu acesso!</S.Typography>
           <label>
             <input
               placeholder="Digite o seu acesso"

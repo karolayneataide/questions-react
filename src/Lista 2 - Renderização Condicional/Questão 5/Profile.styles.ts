@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.ul`
-  margin: 3px;
+  margin-top: 3px;
   display: grid;
 `;
 
-export const Typography = styled.text`
+export const Typography = styled.p`
   font-weight: 500;
-  font-size: large;
+  font-size: medium;
 `;
 
-export const Title = styled.text`
+export const Title = styled.p`
   font-weight: 700;
-  font-size: large;
+  font-size: medium;
 `;

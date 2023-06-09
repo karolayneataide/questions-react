@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: grid;
 `;
 
-export const Typography = styled.text`
+export const Typography = styled.p`
   font-weight: 500;
   font-size: large;
 `;
